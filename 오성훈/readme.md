@@ -1,7 +1,5 @@
-Silver
+## Silver
+
 1436
 
-
-
-
-##GOLD
+## GOLD
