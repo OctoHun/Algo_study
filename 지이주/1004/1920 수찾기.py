@@ -6,6 +6,8 @@ M = int(input())
 datam = list(map(int,input().split()))
 
 datan = sorted(datan)
+# 데이터 입력범위가 매우 커서 리스트로 구현하려고 하니 안됐음.
+# 이분탐색을 통해 답을 찾아보니 쉽게 해결됨
 for i in range(M): # 이분탐색구현
     s,e = 0,N-1
     while True:
