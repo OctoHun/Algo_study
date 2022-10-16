@@ -1,0 +1,16 @@
+N = int(input())
+
+data = [0]*1000001
+
+#재귀로 하련 시간초과가 나버린다.
+#잊고지냈던 dynamic programming이란것을 다시 공부하였따..
+
+for i in range(2,N+1):
+    data[i] = data[i-1]+1
+
+    if i%3==0:
+        data[i] = min(data[i],data[i//3]+1)
+    if i%2==0:
+        data[i] = min(data[i],data[i//2]+1)
+
+print(data[N])
