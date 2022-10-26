@@ -1,4 +1,4 @@
-# 1389 케빈베이컨의 6단계 법칙
+# 1389 케빈베이컨의 6단계 법칙 
 import sys
 from collections import deque
 
